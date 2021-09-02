@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GoToDinnerButtonPC"
         mc:Ignorable="d"
-        Title="MainWindow" Height="614" Width="834">
+        Title="MainWindow" Height="1255" Width="1808" Background="Black">
     <Grid>
-
+        <Label Content="Вызов от" HorizontalAlignment="Center" Margin="0,333,0,0" VerticalAlignment="Top" FontSize="72" FontWeight="Normal" Foreground="White"/>
+        <Label x:Name="CallerLabel" Content="Мама" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="72" FontWeight="Bold" Margin="0,415,0,0" Foreground="#FFFF5B5B"/>
+        <Label Content="Была нажата кнопка" HorizontalAlignment="Center" Margin="0,544,0,0" VerticalAlignment="Top" FontSize="72" FontWeight="Normal" Foreground="White"/>
+        <Label x:Name="RequestLabel" Content="&quot;Позвать поесть&quot;" HorizontalAlignment="Center" Margin="0,620,0,0" VerticalAlignment="Top" FontSize="72" FontWeight="Bold" Foreground="#FFFF4E4E"/>
     </Grid>
 </Window>
